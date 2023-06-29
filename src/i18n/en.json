@@ -1,0 +1,9 @@
+{
+  "NAVIGATOR": {
+    "HOME": "home",
+    "ABOUT": "about",
+    "EXPERTISE": "expertise",
+    "EXPERIENCE": "experience",
+    "CONTACT": "contact"
+  }
+}
