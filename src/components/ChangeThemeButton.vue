@@ -1,6 +1,12 @@
 <template>
    <div class="switch">
-      <input type="checkbox" class="switch__input" id="Switch" @click="toggleDark()" v-model="themeButton">
+      <input
+        type="checkbox"
+        class="switch__input"
+        id="Switch"
+        @click="toggleDark()"
+        v-model="themeButton"
+      >
       <label class="switch__label" for="Switch">
           <span class="switch__indicator"></span>
           <span class="switch__decoration"></span>
@@ -9,17 +15,17 @@
 </template>
 
 <script setup>
-  import { useDark, useToggle } from '@vueuse/core';
-  import { ref } from 'vue';
+import { useDark, useToggle } from '@vueuse/core';
+import { ref } from 'vue';
 
-  const isDark = useDark({
-    attribute: 'color-scheme',
-    valueDark: 'dark'
-  });
+const isDark = useDark({
+  attribute: 'color-scheme',
+  valueDark: 'dark',
+});
 
-  const toggleDark = useToggle(isDark);
+const toggleDark = useToggle(isDark);
 
-  const themeButton = ref(useDark());
+const themeButton = ref(useDark());
 </script>
 
 <style lang="scss">

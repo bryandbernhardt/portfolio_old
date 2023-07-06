@@ -1,9 +1,22 @@
 <template>
-  <Header></Header>
+  <DesktopView v-if="!isMobile"/>
 </template>
 
-<script setup>
-import Header from './components/Header.vue';
+<script>
+import { isMobile } from 'mobile-device-detect';
+import DesktopView from './pages/DesktopView.vue';
+
+export default {
+  data() {
+    return {
+      isMobile,
+    };
+  },
+
+  components: {
+    DesktopView,
+  },
+};
 </script>
 
 <style scoped>
