@@ -137,7 +137,7 @@ export default {
       display: block;
       height: 100%;
       position: absolute;
-      transition: all .2s ease-out;
+      transition: all 0.2s ease-out;
       width: 100%;
     }
     .btn-menu-line::before {
@@ -163,8 +163,7 @@ export default {
     .btn-menu {
       display: block;
     }
-
-    .side-menu:checked ~ .nav-mobile{
+    .side-menu:checked ~ .nav-mobile {
       height: calc(100% - 9.4rem);
       display: flex;
       flex-direction: column;
@@ -174,6 +173,7 @@ export default {
       top: 9.4rem;
       padding: 0 2rem;
       min-width: 30%;
+      animation: go-back 0.5s;
 
       .nav-end-mobile {
         display: flex;
@@ -192,6 +192,15 @@ export default {
     .side-menu:checked ~ .btn-menu .btn-menu-line::after {
       transform: rotate(45deg);
       top:0;
+    }
+
+    @keyframes go-back {
+      0% {
+          transform: translateX(12.5rem);
+      }
+      100% {
+          transform: translateX(0);
+      }
     }
   }
 
