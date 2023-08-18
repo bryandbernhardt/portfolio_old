@@ -25,6 +25,11 @@
   height: 100vh;
   padding: 2rem;
 
+  background-image: var(--about-me-background);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   #about-me-title {
     display: flex;
     flex-direction: column;

@@ -7,6 +7,7 @@
   --disabled-text: #7a838b;
   --primary-color: #47329C;
   --main-background: url('@/assets/images/main-banner.svg');
+  --about-me-background: url('@/assets/images/about-me-light.svg');
 }
 
 [color-scheme="dark"] {
@@ -17,6 +18,7 @@
   --disabled-text: #707070;
   --primary-color: #47329C;
   --main-background: url('@/assets/images/main-banner.svg');
+  --about-me-background: url('@/assets/images/about-me.svg');
 }
 
 *,
