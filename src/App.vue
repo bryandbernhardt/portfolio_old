@@ -1,12 +1,13 @@
 <template>
-  <DesktopView v-if="!isMobile"/>
-  <MobileView v-else />
+  <DesktopView />
+  <!-- <DesktopView v-if="!isMobile"/>
+  <MobileView v-else /> -->
 </template>
 
 <script>
 import { isMobile } from 'mobile-device-detect';
 import DesktopView from './pages/DesktopView.vue';
-import MobileView from './pages/MobileView.vue';
+// import MobileView from './pages/MobileView.vue';
 
 export default {
   data() {
@@ -17,7 +18,7 @@ export default {
 
   components: {
     DesktopView,
-    MobileView,
+    // MobileView,
   },
 };
 </script>

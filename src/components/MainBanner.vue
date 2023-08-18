@@ -6,22 +6,24 @@
       <h2>Full Stack<br />Developer</h2>
     </div>
     <div id="main-banner-button">
-      <a href="https://github.com/bryandbernhardt/" target="_blank" rel="external">
-        <button>
-          CONNECT
-          <img src="@/assets/images/rowicon.svg" alt="connect" srcset="@/assets/images/rowicon.svg">
-        </button>
-      </a>
+      <BaseButton
+        label="CONNECT"
+        href="https://github.com/bryandbernhardt/"
+        alt="connect"
+        src="src/assets/images/arrow-right-icon.svg"
+      />
     </div>
   </div>
 </template>
 
 <script>
 import ChangeThemeButton from './ChangeThemeButton.vue';
+import BaseButton from './BaseButton.vue';
 
 export default {
   components: {
     ChangeThemeButton,
+    BaseButton,
   },
 };
 </script>
@@ -48,33 +50,30 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-template-areas: "main-banner-title" "main-banner-button";
 
   #main-banner-title {
     width: 60vw;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    grid-area: "main-banner-title";
 
     h1 {
       font-family: 'Righteous', cursive;
       line-height: 1;
-      font-size: clamp(0.5rem, -0.6111rem + 5.5556vw, 1.75rem);
+      font-size: clamp(1rem, -0.6111rem + 5.5556vw, 1.75rem);
       color: #ffff;
     }
 
     h2 {
       font-family: 'Black Ops One', cursive;
       line-height: 0.8;
-      font-size: clamp(1rem, -2.2782rem + 16.3911vw, 4.688rem);
+      font-size: clamp(2rem, -2.2782rem + 16.3911vw, 4.688rem);
       color: #ffff;
     }
   }
 
   #main-banner-button {
     width: 60vw;
-    grid-area: "main-banner-button";
     align-self: flex-start;
 
     button {
@@ -94,4 +93,5 @@ export default {
     }
   }
 }
+
 </style>

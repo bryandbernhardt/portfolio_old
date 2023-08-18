@@ -9,3 +9,17 @@
 button {
   cursor: pointer;
 }
+
+h2 {
+  font-size: clamp(2rem, -0.1875rem + 7vw, 3.75rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 0.0938rem + 4.5vw, 2.625rem);
+  line-height: 1;
+}
+
+p {
+  font-size: clamp(1rem, 0.625rem + 1.2vw, 1.3rem);
+  line-height: 1.2;
+}
