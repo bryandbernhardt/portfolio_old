@@ -7,9 +7,9 @@
       <h3>{{ title }}</h3>
       <p>{{ description }}</p>
       <BaseButton
-        label="SEE MORE"
+        :label="$t('SEE_MORE')"
         :href="link"
-        alt="see more"
+        :alt="$t('SEE_MORE')"
         src="arrow-right-icon.webp"
       />
     </div>

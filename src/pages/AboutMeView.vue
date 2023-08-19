@@ -1,15 +1,14 @@
 <template>
   <div id="about-me">
     <div id="about-me-title">
-      <h2>About me</h2>
-      <p>I'm Bryan, developer and systems analyst,
-        my specialty is in Front-End development and I'm working on Full-Stack.</p>
+      <h2>{{ $t("ABOUT_ME.TITLE") }}</h2>
+      <p>{{ $t("ABOUT_ME.TEXT") }}</p>
     </div>
     <div id="go-to-portfolio">
-      <h4>MY PORTFOLIO</h4>
+      <h4>{{ $t("MY_PORTFOLIO") }}</h4>
       <img
       src="@/assets/images/arrow-buttom.svg"
-      alt="go to portfolio"
+      :alt="$t('MY_PORTFOLIO')"
       srcset="@/assets/images/arrow-buttom.svg"/>
     </div>
   </div>

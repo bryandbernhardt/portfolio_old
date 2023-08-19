@@ -1,32 +1,25 @@
 <template>
   <div id="experience-container">
-    <h2>Experience</h2>
+    <h2>{{ $t("EXPERIENCE") }}</h2>
 
     <div class="experiences">
 
       <div class="experience">
-        <h4>DEPLOYMENT ANALYST</h4>
+        <h4>{{ $t("DEVELOPMENT_ANALYST.TITLE") }}</h4>
         <p class="subtitle">IBR SISTEMAS</p>
-        <p>System installation, tax coupon printers,
-          digital certificates, tax configuration for issuing
-          tax documents and training for customers.
-        </p>
+        <p>{{ $t("DEVELOPMENT_ANALYST.TEXT") }}</p>
       </div>
 
       <div class="experience">
-        <h4>FREELANCER FULL STACK DEVELOPER</h4>
+        <h4>{{ $t("FREELANCER.TITLE") }}</h4>
         <p class="subtitle">INCEPTION SURVEY APP</p>
-        <p>
-          Web system for managing products and research for a drug company.
-        </p>
+        <p>{{ $t("FREELANCER.TEXT") }}</p>
       </div>
 
       <div class="experience">
-        <h4>FULL STACK DEVELOPER</h4>
+        <h4>{{ $t("FULLSTACK.TITLE") }}</h4>
         <p class="subtitle">MINHA VISISTA</p>
-        <p>
-          Web and mobile system for team management and external sales.
-        </p>
+        <p>{{ $t("FULLSTACK.TEXT") }}</p>
       </div>
     </div>
   </div>

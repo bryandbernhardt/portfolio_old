@@ -1,9 +1,32 @@
 {
-  "NAVIGATOR": {
-    "HOME": "casa",
-    "ABOUT": "sobre",
-    "EXPERTISE": "habilidad",
-    "EXPERIENCE": "experiencia",
-    "CONTACT": "contacto"
-  }
+  "DESENVOLVEDOR_FULLSTACK_1": "PROGRAMADOR",
+  "DESENVOLVEDOR_FULLSTACK_2": "FULL STACK",
+  "CONNECT": "CONECTA",
+  "ABOUT_ME": {
+    "TITLE": "Sobre mí",
+    "TEXT": "Soy Bryan, programador y analista de sistemas, mi especialidad es el desenvolvimiento Front-End y estoy trabajando como Full-Stack."
+  },
+  "MY_PORTFOLIO": "MI PORTAFOLIO",
+  "SEE_MORE": "VER MÁS",
+  "MINHA_VISITA": {
+    "TEXT": "Sistema con el que trabajo actualmente como programador full stack de nuevas funcionalidades."
+  },
+  "CHARMING_FOX": {
+    "TEXT": "Aplicación web full stack para venta de perfumes desarrollada con fines de estudio universitario."
+  },
+  "EXPERIENCE": "Experiencia",
+  "DEVELOPMENT_ANALYST": {
+    "TITLE": "ANALISTA DE IMPLANTACIÓN",
+    "TEXT": "Instalación del sistema, impresoras de cupones fiscales, certificados digitales, configuración fiscal para la emisión de documentos fiscales y formación para los clientes."
+  },
+  "FREELANCER": {
+    "TITLE": "PROGRAMADOR FREELANCER FULL STACK",
+    "TEXT": "Sistema web de gestión de productos e investigación para una empresa farmacéutica."
+  },
+  "FULLSTACK": {
+    "TITLE": "PROGRAMADOR FULL STACK",
+    "TEXT": "Sistema web y móvil para la gestión de equipos y ventas externas."
+  },
+  "CONNECT_WITH_ME": "Conecta conmigo",
+  "I_SPEAK": "Hablo portugués, inglés y español"
 }

@@ -1,9 +1,32 @@
 {
-  "NAVIGATOR": {
-    "HOME": "home",
-    "ABOUT": "about",
-    "EXPERTISE": "expertise",
-    "EXPERIENCE": "experience",
-    "CONTACT": "contact"
-  }
+  "DESENVOLVEDOR_FULLSTACK_1": "FULL STACK",
+  "DESENVOLVEDOR_FULLSTACK_2": "DEVELOPER",
+  "CONNECT": "CONNECT",
+  "ABOUT_ME": {
+    "TITLE": "About me",
+    "TEXT": "I'm Bryan, developer and systems analyst, my specialty is in Front-End development and I'm working on Full-Stack."
+  },
+  "MY_PORTFOLIO": "MY PORTFOLIO",
+  "SEE_MORE": "SEE MORE",
+  "MINHA_VISITA": {
+    "TEXT": "System I currently work with as a full stack developer of new features"
+  },
+  "CHARMING_FOX": {
+    "TEXT": "Full stack web application for selling perfumes developed for college study purposes."
+  },
+  "EXPERIENCE": "Experience",
+  "DEVELOPMENT_ANALYST": {
+    "TITLE": "DEPLOYMENT ANALYST",
+    "TEXT": "System installation, tax coupon printers, digital certificates, tax configuration for issuing tax documents and training for customers."
+  },
+  "FREELANCER": {
+    "TITLE": "FREELANCER FULL STACK DEVELOPER",
+    "TEXT": "Web system for managing products and research for a drug company."
+  },
+  "FULLSTACK": {
+    "TITLE": "FULL STACK DEVELOPER",
+    "TEXT": "Web and mobile system for team management and external sales."
+  },
+  "CONNECT_WITH_ME": "Connect with me",
+  "I_SPEAK": "I speak portuguese, english and spanish"
 }

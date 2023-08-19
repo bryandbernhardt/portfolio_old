@@ -3,15 +3,14 @@
     <ProjectSection
       class="project-section"
       title="MINHA VISITA APP"
-      description="System I currently work with as a full stack developer of new features"
+      :description="$t('MINHA_VISITA.TEXT')"
       imageSrc="mv20.webp"
       imageAlt="Minha Visita App"
       link="https://minhavisita.app/" />
     <ProjectSection
       class="project-section"
       title="CHARMING FOX"
-      description="Full stack web application for selling perfumes
-      developed for college study purposes."
+      :description="$t('CHARMING_FOX.TEXT')"
       imageSrc="charmingfox.webp"
       imageAlt="Charming Fox"
       link="https://github.com/bryandbernhardt/PI-VB-frontend" />

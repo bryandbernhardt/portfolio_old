@@ -1,15 +1,18 @@
 <template>
   <div id="main-banner">
-    <ChangeThemeButton class="change-theme-button" />
+    <div class="main-options">
+      <ChangeThemeButton />
+      <SelectLangs />
+    </div>
     <div id="main-banner-title">
       <h1>Bryan Dietrich<br />Bernhardt</h1>
-      <h2>Full Stack<br />Developer</h2>
+      <h2>{{ $t("DESENVOLVEDOR_FULLSTACK_1") }}<br />{{ $t("DESENVOLVEDOR_FULLSTACK_2") }}</h2>
     </div>
     <div id="main-banner-button">
       <BaseButton
-        label="CONNECT"
+        :label="$t('CONNECT')"
         href="https://github.com/bryandbernhardt/"
-        alt="connect"
+        :alt="$t('CONNECT')"
         src="arrow-right-icon.webp"
       />
     </div>
@@ -17,23 +20,28 @@
 </template>
 
 <script>
-import ChangeThemeButton from './ChangeThemeButton.vue';
 import BaseButton from './BaseButton.vue';
+import ChangeThemeButton from './ChangeThemeButton.vue';
+import SelectLangs from './SelectLangs.vue';
 
 export default {
   components: {
     ChangeThemeButton,
+    SelectLangs,
     BaseButton,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.change-theme-button {
+.main-options {
   position: absolute;
   right: 0;
   top: 0;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #main-banner {
@@ -94,4 +102,10 @@ export default {
   }
 }
 
+</style>
+
+<style lang="scss">
+.langs-container {
+  min-width: 10px;
+}
 </style>

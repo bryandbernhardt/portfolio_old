@@ -1,9 +1,9 @@
 <template>
   <div class="background-container">
     <div id="connect-with-me">
-      <h2 id="connect-with-me-title">Connect with me</h2>
+      <h2 id="connect-with-me-title">{{ $t("CONNECT_WITH_ME") }}</h2>
       <div id="connect-with-me-info">
-        <p>I speak portuguese, english and spanish</p>
+        <p>{{ $t("I_SPEAK") }}</p>
         <a href="mailto:contact@bryandbernhardt.com"><p>
           contact@bryandbernhardt.com
         </p></a>
