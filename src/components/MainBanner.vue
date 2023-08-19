@@ -10,7 +10,7 @@
         label="CONNECT"
         href="https://github.com/bryandbernhardt/"
         alt="connect"
-        src="src/assets/images/arrow-right-icon.webp"
+        src="arrow-right-icon.webp"
       />
     </div>
   </div>
