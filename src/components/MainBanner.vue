@@ -38,7 +38,7 @@ export default {
 
 #main-banner {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 
   background-image: var(--main-background);
   background-repeat: no-repeat;

@@ -135,7 +135,7 @@ export default {
       background-color: var(--default-text);
       content: '';
       display: block;
-      height: 100%;
+      min-height: 100%;
       position: absolute;
       transition: all 0.2s ease-out;
       width: 100%;
