@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" :target="target" :rel="external">
+  <a :href="href" :target="target" :rel="rel">
     <button>
       {{ label }}
       <img :src="src" :alt="alt">
