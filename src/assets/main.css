@@ -19,6 +19,20 @@ h3 {
   line-height: 1;
 }
 
+h4 {
+  font-size: clamp(1rem, 0.625rem + 1.2vw, 1.3rem);
+  line-height: 1.2;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: clamp(0.7rem, 0.625rem + 1.2vw, 1rem);
+  color: var(--primary-color);
+  font-weight: bold;
+  font-style: italic;
+}
+
 p {
   font-size: clamp(1rem, 0.625rem + 1.2vw, 1.3rem);
   line-height: 1.2;
