@@ -8,6 +8,7 @@
   --primary-color: #47329C;
   --main-background: url('@/assets/images/main-banner.svg');
   --about-me-background: url('@/assets/images/about-me-light.svg');
+  --connect-with-me-background: url('@/assets/images/contact-banner-light.svg');
 }
 
 [color-scheme="dark"] {
@@ -19,6 +20,7 @@
   --primary-color: #47329C;
   --main-background: url('@/assets/images/main-banner.svg');
   --about-me-background: url('@/assets/images/about-me.svg');
+  --connect-with-me-background: url('@/assets/images/contact-banner.svg');
 }
 
 *,
