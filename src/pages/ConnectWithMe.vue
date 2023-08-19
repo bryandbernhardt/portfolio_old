@@ -9,13 +9,13 @@
         </p></a>
         <div class="social-media">
           <a href="https://www.linkedin.com/in/bryandbernhardt/" target="_blank" rel="external">
-            <img src="../assets/images/linkedin.svg" alt="linkedin" />
+            <img src="../assets/images/linkedin.webp" alt="linkedin" />
           </a>
           <a href="https://www.instagram.com/baiaaam/" target="_blank" rel="external">
-            <img src="../assets/images/instagram.svg" alt="Instagram" />
+            <img src="../assets/images/instagram.webp" alt="Instagram" />
           </a>
           <a href="https://github.com/bryandbernhardt/" target="_blank" rel="external">
-            <img src="../assets/images/github.svg" alt="GitHub" />
+            <img src="../assets/images/github.webp" alt="GitHub" />
           </a>
         </div>
       </div>

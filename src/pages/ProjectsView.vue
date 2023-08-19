@@ -4,7 +4,7 @@
       class="project-section"
       title="MINHA VISITA APP"
       description="System I currently work with as a full stack developer of new features"
-      imageSrc="src/assets/images/mv20.svg"
+      imageSrc="src/assets/images/mv20.webp"
       imageAlt="Minha Visita App"
       link="https://minhavisita.app/" />
     <ProjectSection
@@ -12,7 +12,7 @@
       title="CHARMING FOX"
       description="Full stack web application for selling perfumes
       developed for college study purposes."
-      imageSrc="src/assets/images/charmingfox.svg"
+      imageSrc="src/assets/images/charmingfox.webp"
       imageAlt="Charming Fox"
       link="https://github.com/bryandbernhardt/PI-VB-frontend" />
   </div>

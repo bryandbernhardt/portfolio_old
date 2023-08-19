@@ -10,7 +10,7 @@
         label="SEE MORE"
         :href="link"
         alt="see more"
-        src="src/assets/images/arrow-right-icon.svg"
+        src="src/assets/images/arrow-right-icon.webp"
       />
     </div>
   </div>

@@ -6,9 +6,9 @@
   --secondary-text: #495057;
   --disabled-text: #7a838b;
   --primary-color: #47329C;
-  --main-background: url('@/assets/images/main-banner.svg');
+  --main-background: url('@/assets/images/main-banner.webp');
   --about-me-background: url('@/assets/images/about-me-light.svg');
-  --connect-with-me-background: url('@/assets/images/contact-banner-light.svg');
+  --connect-with-me-background: url('@/assets/images/contact-banner-light.webp');
 }
 
 [color-scheme="dark"] {
@@ -18,9 +18,9 @@
   --secondary-text: #A8A8A8;
   --disabled-text: #707070;
   --primary-color: #47329C;
-  --main-background: url('@/assets/images/main-banner.svg');
+  --main-background: url('@/assets/images/main-banner.webp');
   --about-me-background: url('@/assets/images/about-me.svg');
-  --connect-with-me-background: url('@/assets/images/contact-banner.svg');
+  --connect-with-me-background: url('@/assets/images/contact-banner.webp');
 }
 
 *,
