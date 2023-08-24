@@ -68,14 +68,14 @@ export default {
     h1 {
       font-family: 'Righteous', cursive;
       line-height: 1;
-      font-size: clamp(1rem, -0.6111rem + 5.5556vw, 1.75rem);
+      font-size: clamp(0.8rem, 0.4545rem + 1.7273vw, 1.75rem);
       color: #ffff;
     }
 
     h2 {
       font-family: 'Black Ops One', cursive;
       line-height: 0.8;
-      font-size: clamp(1.2rem, 0.0055rem + 7.6449vw, 4.688rem);
+      font-size: clamp(1.2rem, -0.0684rem + 6.3418vw, 4.688rem);
       color: #ffff;
     }
   }

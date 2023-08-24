@@ -85,6 +85,18 @@ export default {
     flex-direction: column;
     gap: 1rem;
 
+    .image {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+    img {
+      align-self: center;
+      height: 40vh;
+      max-width: 100%;
+    }
+  }
+
     .project-info {
       width: 70%;
     }
