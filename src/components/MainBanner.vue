@@ -75,7 +75,7 @@ export default {
     h2 {
       font-family: 'Black Ops One', cursive;
       line-height: 0.8;
-      font-size: clamp(2rem, -2.2782rem + 16.3911vw, 4.688rem);
+      font-size: clamp(1.2rem, 0.0055rem + 7.6449vw, 4.688rem);
       color: #ffff;
     }
   }
