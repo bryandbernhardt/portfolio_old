@@ -18,7 +18,7 @@
 
       <div class="experience">
         <h4>{{ $t("FULLSTACK.TITLE") }}</h4>
-        <p class="subtitle">MINHA VISISTA</p>
+        <p class="subtitle">MINHA VISITA</p>
         <p>{{ $t("FULLSTACK.TEXT") }}</p>
       </div>
     </div>
