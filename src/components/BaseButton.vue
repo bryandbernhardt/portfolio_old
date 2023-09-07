@@ -2,7 +2,7 @@
   <a :href="href" :target="target" :rel="rel">
     <button>
       {{ label }}
-      <img :src="src" :alt="alt">
+      <img :src="src" :alt="alt" width="25" height="25">
     </button>
   </a>
 </template>

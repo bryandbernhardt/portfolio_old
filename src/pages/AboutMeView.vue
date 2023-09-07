@@ -7,9 +7,12 @@
     <div id="go-to-portfolio">
       <h4>{{ $t("MY_PORTFOLIO") }}</h4>
       <img
-      src="@/assets/images/arrow-buttom.svg"
-      :alt="$t('MY_PORTFOLIO')"
-      srcset="@/assets/images/arrow-buttom.svg"/>
+        src="@/assets/images/arrow-buttom.svg"
+        :alt="$t('MY_PORTFOLIO')"
+        srcset="@/assets/images/arrow-buttom.svg"
+        width="30"
+        height="30"
+      />
     </div>
   </div>
 </template>
