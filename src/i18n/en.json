@@ -28,5 +28,11 @@
     "TEXT": "Web and mobile system for team management and external sales."
   },
   "CONNECT_WITH_ME": "Connect with me",
-  "I_SPEAK": "I speak portuguese, english and spanish"
+  "I_SPEAK": "I speak portuguese, english and spanish",
+  "MINHAVISITA": {
+    "VER": "See Minha Visita app"
+  },
+  "CHARMINGFOX": {
+    "VER": "See Charming Fox repo"
+  }
 }

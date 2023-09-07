@@ -6,14 +6,18 @@
       :description="$t('MINHA_VISITA.TEXT')"
       imageSrc="mv20.webp"
       imageAlt="Minha Visita App"
-      link="https://minhavisita.app/" />
+      link="https://minhavisita.app/"
+      :label="$t('MINHAVISITA.VER')"
+    />
     <ProjectSection
       class="project-section"
       title="CHARMING FOX"
       :description="$t('CHARMING_FOX.TEXT')"
       imageSrc="charmingfox.webp"
       imageAlt="Charming Fox"
-      link="https://github.com/bryandbernhardt/PI-VB-frontend" />
+      link="https://github.com/bryandbernhardt/PI-VB-frontend"
+      :label="$t('CHARMINGFOX.VER')"
+    />
   </div>
 </template>
 

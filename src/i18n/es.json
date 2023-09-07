@@ -28,5 +28,11 @@
     "TEXT": "Sistema web y móvil para la gestión de equipos y ventas externas."
   },
   "CONNECT_WITH_ME": "Conecta conmigo",
-  "I_SPEAK": "Hablo portugués, inglés y español"
+  "I_SPEAK": "Hablo portugués, inglés y español",
+  "MINHAVISITA": {
+    "VER": "Ver app Minha Visita"
+  },
+  "CHARMINGFOX": {
+    "VER": "Ver repo Charming Fox"
+  }
 }

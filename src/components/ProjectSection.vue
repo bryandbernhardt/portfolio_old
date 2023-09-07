@@ -7,9 +7,9 @@
       <h3>{{ title }}</h3>
       <p>{{ description }}</p>
       <BaseButton
-        :label="$t('SEE_MORE')"
+        :label="label"
         :href="link"
-        :alt="$t('SEE_MORE')"
+        :alt="label"
         src="arrow-right-icon.webp"
       />
     </div>
@@ -40,6 +40,10 @@ export default {
       required: true,
     },
     link: {
+      type: String,
+      required: true,
+    },
+    label: {
       type: String,
       required: true,
     },
