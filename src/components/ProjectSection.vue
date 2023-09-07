@@ -1,7 +1,7 @@
 <template>
   <div class="project-section">
     <div class="image">
-      <img :src="imageSrc" :alt="imageAlt" :srcset="imageSrc" height="270" />
+      <img :src="imageSrc" :alt="imageAlt" :srcset="imageSrc" width="270" height="270" />
     </div>
     <div class="project-info">
       <h3>{{ title }}</h3>
@@ -67,7 +67,6 @@ export default {
 
     img {
       align-self: center;
-      height: 40vh;
     }
   }
 
@@ -92,8 +91,6 @@ export default {
 
     img {
       align-self: center;
-      height: 40vh;
-      max-width: 100%;
     }
   }
 
