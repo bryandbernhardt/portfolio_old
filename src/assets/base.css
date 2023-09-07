@@ -7,7 +7,7 @@
   --disabled-text: #7a838b;
   --primary-color: #47329C;
   --main-background: url('@/assets/images/main-banner.webp');
-  --about-me-background: url('@/assets/images/about-me-light.svg');
+  --about-me-background: url('@/assets/images/about-me-light.webp');
   --connect-with-me-background: url('@/assets/images/contact-banner-light.webp');
 }
 
@@ -19,7 +19,7 @@
   --disabled-text: #707070;
   --primary-color: #47329C;
   --main-background: url('@/assets/images/main-banner.webp');
-  --about-me-background: url('@/assets/images/about-me.svg');
+  --about-me-background: url('@/assets/images/about-me.webp');
   --connect-with-me-background: url('@/assets/images/contact-banner.webp');
 }
 
