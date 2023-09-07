@@ -1,6 +1,11 @@
 <template>
   <div class="langs-container">
-    <select @change="updateLanguage()" v-model="$i18n.locale" name="langs" id="langs">
+    <select
+      @change="updateLanguage()"
+      v-model="$i18n.locale"
+      name="langs" id="langs"
+      :aria-label="$t('TROCAR_LINGUAGEM')"
+    >
       <option v-for="(lang, i) in langs" :key="i" :value="lang[0]">
         {{ lang[1] }}
       </option>
