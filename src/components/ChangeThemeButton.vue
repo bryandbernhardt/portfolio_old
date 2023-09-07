@@ -1,16 +1,17 @@
 <template>
-   <div class="switch">
-      <input
-        type="checkbox"
-        class="switch__input"
-        id="Switch"
-        @click="toggleDark()"
-        v-model="themeButton"
-      >
-      <label class="switch__label" for="Switch">
-          <span class="switch__indicator"></span>
-          <span class="switch__decoration"></span>
-      </label>
+  <div class="switch">
+    <input
+      type="checkbox"
+      class="switch__input"
+      id="Switch"
+      @click="toggleDark()"
+      v-model="themeButton"
+      :aria-label="$t('TROCAR_TEMA')"
+    >
+    <label class="switch__label" for="Switch">
+      <span class="switch__indicator"></span>
+      <span class="switch__decoration"></span>
+    </label>
   </div>
 </template>
 
