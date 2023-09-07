@@ -1,19 +1,21 @@
 {
   "hosting": {
-    "headers": {
-      "source": "**/*.@(webp|js|css|svg)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=2592000"
-        }
-      ]
-    },
     "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(svg|webp|css|js)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=2592000"
+          }
+        ]
+      }
     ]
   }
 }

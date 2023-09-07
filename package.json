@@ -8,13 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "6.4.0",
-    "@fortawesome/free-brands-svg-icons": "6.4.0",
-    "@fortawesome/free-regular-svg-icons": "6.4.0",
-    "@fortawesome/free-solid-svg-icons": "6.4.0",
-    "@fortawesome/vue-fontawesome": "3.0.3",
     "@vueuse/core": "10.2.1",
-    "mobile-device-detect": "0.4.3",
     "vue": "3.3.4",
     "vue-i18n": "9.2.2"
   },
