@@ -9,7 +9,7 @@
       <BaseButton
         :label="label"
         :href="link"
-        :alt="label"
+        :alt="$t('FLECHAS.FLECHA_DIREITA')"
         src="arrow-right-icon.webp"
       />
     </div>
