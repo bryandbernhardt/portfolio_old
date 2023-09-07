@@ -1,7 +1,7 @@
 <template>
   <div class="project-section">
     <div class="image">
-      <img :src="imageSrc" :alt="imageAlt" :srcset="imageSrc" width="270" height="280.39" />
+      <img :src="imageSrc" :alt="imageAlt" :srcset="imageSrc" width="270" height="329" />
     </div>
     <div class="project-info">
       <h3>{{ title }}</h3>
