@@ -5,7 +5,7 @@
       <p>{{ $t("ABOUT_ME.TEXT") }}</p>
     </div>
     <div id="go-to-portfolio">
-      <h4>{{ $t("MY_PORTFOLIO") }}</h4>
+      <h3>{{ $t("MY_PORTFOLIO") }}</h3>
       <img
         src="@/assets/images/arrow-buttom.svg"
         :alt="$t('MY_PORTFOLIO')"
@@ -53,6 +53,13 @@
 
     img {
       width: 2.5rem;
+    }
+
+    h3 {
+      font-size: clamp(1rem, 0.625rem + 1.2vw, 1.3rem);
+      line-height: 1.2;
+      color: var(--primary-color);
+      font-weight: bold;
     }
   }
 }
