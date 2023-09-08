@@ -67,6 +67,7 @@ export default {
 
     h1 {
       font-family: 'McLaren', cursive;
+      font-display: swap;
       line-height: 1;
       font-size: clamp(0.8rem, 0.4545rem + 1.7273vw, 1.75rem);
       color: #ffff;
@@ -74,6 +75,7 @@ export default {
 
     h2 {
       font-family: 'McLaren', cursive;
+      font-display: swap;
       line-height: 0.85;
       font-size: clamp(1.2rem, -0.0684rem + 6.3418vw, 4.688rem);
       color: #ffff;
