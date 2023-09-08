@@ -15,15 +15,6 @@
             "value": "max-age=2592000"
           }
         ]
-      },
-      {
-        "source": "**/*.@(ttf)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=31536000"
-          }
-        ]
       }
     ]
   }

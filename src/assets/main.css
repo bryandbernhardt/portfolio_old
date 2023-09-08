@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'McLaren';
-  font-style: normal;
-  font-weight: 400;
-  src: url("/McLaren-Regular.ttf");
-  font-display: swap;
-}
-
 #app {
   margin: 0 auto;
   font-weight: normal;
