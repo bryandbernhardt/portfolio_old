@@ -66,15 +66,15 @@ export default {
     gap: 0.5rem;
 
     h1 {
-      font-family: 'Righteous', cursive;
+      font-family: 'McLaren', cursive;
       line-height: 1;
       font-size: clamp(0.8rem, 0.4545rem + 1.7273vw, 1.75rem);
       color: #ffff;
     }
 
     h2 {
-      font-family: 'Black Ops One', cursive;
-      line-height: 0.8;
+      font-family: 'McLaren', cursive;
+      line-height: 0.85;
       font-size: clamp(1.2rem, -0.0684rem + 6.3418vw, 4.688rem);
       color: #ffff;
     }
